@@ -1,0 +1,312 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "array",
+  "items": [
+    {
+      "type": "object",
+      "properties": {
+        "_id": {
+          "type": "string"
+        },
+        "isActive": {
+          "type": "boolean"
+        },
+        "balance": {
+          "type": "string"
+        },
+        "age": {
+          "type": "integer"
+        },
+        "eyeColor": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "gender": {
+          "type": "string"
+        },
+        "company": {
+          "type": "string"
+        },
+        "email": {
+          "type": "string"
+        },
+        "phone": {
+          "type": "string"
+        },
+        "friends": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "integer"
+                },
+                "name": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "id",
+                "name"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "integer"
+                },
+                "name": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "id",
+                "name"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "integer"
+                },
+                "name": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "id",
+                "name"
+              ]
+            }
+          ]
+        },
+        "favoriteFruit": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "_id",
+        "isActive",
+        "balance",
+        "age",
+        "eyeColor",
+        "name",
+        "gender",
+        "company",
+        "email",
+        "phone",
+        "friends",
+        "favoriteFruit"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "_id": {
+          "type": "string"
+        },
+        "isActive": {
+          "type": "boolean"
+        },
+        "balance": {
+          "type": "string"
+        },
+        "age": {
+          "type": "integer"
+        },
+        "eyeColor": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "gender": {
+          "type": "string"
+        },
+        "company": {
+          "type": "string"
+        },
+        "email": {
+          "type": "string"
+        },
+        "phone": {
+          "type": "string"
+        },
+        "friends": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "integer"
+                },
+                "name": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "id",
+                "name"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "integer"
+                },
+                "name": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "id",
+                "name"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "integer"
+                },
+                "name": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "id",
+                "name"
+              ]
+            }
+          ]
+        },
+        "favoriteFruit": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "_id",
+        "isActive",
+        "balance",
+        "age",
+        "eyeColor",
+        "name",
+        "gender",
+        "company",
+        "email",
+        "phone",
+        "friends",
+        "favoriteFruit"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "_id": {
+          "type": "string"
+        },
+        "isActive": {
+          "type": "boolean"
+        },
+        "balance": {
+          "type": "string"
+        },
+        "age": {
+          "type": "integer"
+        },
+        "eyeColor": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "gender": {
+          "type": "string"
+        },
+        "company": {
+          "type": "string"
+        },
+        "email": {
+          "type": "string"
+        },
+        "phone": {
+          "type": "string"
+        },
+        "friends": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "integer"
+                },
+                "name": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "id",
+                "name"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "integer"
+                },
+                "name": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "id",
+                "name"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "integer"
+                },
+                "name": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "id",
+                "name"
+              ]
+            }
+          ]
+        },
+        "favoriteFruit": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "_id",
+        "isActive",
+        "balance",
+        "age",
+        "eyeColor",
+        "name",
+        "gender",
+        "company",
+        "email",
+        "phone",
+        "friends",
+        "favoriteFruit"
+      ]
+    }
+  ]
+}
